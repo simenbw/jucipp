@@ -100,6 +100,11 @@ Menu::Menu() {
   "          <attribute name='action'>app.save_as</attribute>"
              +accels["save_as"]+ //For Ubuntu...
   "        </item>"
+  "        <item>"
+  "          <attribute name='label' translatable='yes'>_Settings</attribute>"
+  "          <attribute name='action'>app.preferences</attribute>"
+             +accels["preferences"]+ //For Ubuntu...
+  "        </item>"
   "      </section>"
   "    </submenu>"
   ""
